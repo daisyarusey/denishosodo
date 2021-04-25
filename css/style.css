@@ -27,10 +27,6 @@
                     height: 500px;
                 }
                 
-                #header .container {
-                    padding: 0;
-                }
-                
                 .intro {
                     float: left;
                     vertical-align: middle;
@@ -45,7 +41,7 @@
                 }
                 
                 .blue-strip {
-                    height: 1cm;
+                    background-color: #0076B4;
                 }
                 
                 footer {
@@ -75,3 +71,17 @@
                     margin: 15px;
                     font-size: 20px;
                 }
+                
+                @media only screen and (max-width: 768px) {
+                    .navbar .navbar-toggler {
+                        border-color: #000000;
+                        /* background-color:#122c47 */
+                    }
+                    .rvse {
+                        display: flex;
+                        flex-direction: column-reverse;
+                    }
+                }
+                /* .custom-list {
+                    list-style-image: url('/images/icons8-greater-than-30.png');
+                } */
